@@ -1,0 +1,54 @@
+/* :root {
+  --white-color: #fff;
+  --black-color: #000;
+  --btn-color: #f9e43f;
+  --nav-height: 70px;
+  --banner-height: 560px;
+  --collection-width: 836px;
+  --collection-height: 536px;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  scroll-behavior: smooth;
+} */
+.content-title.content-title--position-left {
+  text-align: center;
+}
+.content-title-bark {
+  margin-bottom: 50px;
+}
+.content-read-blog {
+  margin-top: calc(var(--nav-height) + 50px);
+}
+.pagination {
+  margin: 50px 0;
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .content-title-bark {
+    margin-bottom: 25px;
+  }
+}
+/* Mobile: width < 740px */
+@media (max-width: 46.1875em) {
+  .content-read-blog {
+    margin-top: calc(var(--nav-height) + 25px);
+  }
+  .content-title-bark {
+    margin-bottom: 0px;
+  }
+  .pagination > .pagination-park > ul > li {
+    margin-right: 5px;
+  }
+
+  .pagination > .pagination-park > ul > li > a {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 26px;
+  }
+  .pagination {
+    margin: 25px 0;
+  }
+}

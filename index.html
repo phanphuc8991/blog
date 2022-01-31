@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assets/img/icon-travel.png" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Blog-Travel</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="modal-img">
+        <div class="loading">
+          <div class="load-bark">
+            <div class="load"></div>
+          </div>
+        </div>
+        <div class="modal-img__overlay"></div>
+        <div class="modal-img__img-bark">
+          <div class="modal-img__img-fade"></div>
+          <div class="modal-img__img">
+            <img src="./assets/img/img-collection-1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="modal-img__prev-next">
+          <div class="modal-img__prev">
+            <span><i class="fas fa-angle-left"></i></span>
+          </div>
+          <div class="modal-img__next">
+            <span> <i class="fas fa-angle-right"></i></span>
+          </div>
+        </div>
+      </div>
+      <header class="header">
+        <div class="nav">
+          <div class="nav__bark grid wide">
+            <div class="nav__logo">
+              <img src="./assets/img/nav-logo.png" alt="" />
+            </div>
+            <div class="nav__toggler">
+              <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  stroke="#808080"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  d="M4 7h22M4 15h22M4 23h22"
+                />
+              </svg>
+            </div>
+            <div class="nav-link">
+              <ul class="nav-link__bark">
+                <li class="nav-link__item">
+                  <a href="index.html">home</a>
+                </li>
+                <li class="nav-link__item">
+                  <a href="./assets/page/about/about.html">about</a>
+                </li>
+                <li class="nav-link__item">
+                  <a href="./assets/page/gallery/gallery.html">gallery</a>
+                </li>
+                <li class="nav-link__item">
+                  <a href="./assets/page/read-blog/blogs.html">blogs</a>
+                </li>
+                <li class="nav-link__item">
+                  <a href="./assets/page/contact/contact.html">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div
+            class="banner__item-center"
+            style="background-image: url(./assets/img/banner-image-1.jpg)"
+          >
+            <div class="desc active">
+              <div class="desc__large">
+                REMAININGS OF OLD BOAT IN THE BEACH OF BALI.
+              </div>
+              <div class="desc__small">
+                REMAININGS OF OLD BOAT IN THE BEACH OF BALI.
+              </div>
+              <a href="#" class="desc__btn">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="banner__item-left">
+            <div class="desc">
+              <div class="desc__large"></div>
+              <div class="desc__small"></div>
+              <a href="#" class="desc__btn">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="banner__item-right">
+            <div class="desc">
+              <div class="desc__large"></div>
+              <div class="desc__small"></div>
+              <a href="#" class="desc__btn">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="choose-banner">
+            <div class="choose-banner__img active">
+              <img src="./assets/img/banner-image-1.jpg" alt="" />
+            </div>
+            <div class="choose-banner__img">
+              <img src="./assets/img/banner-image-2.jpg" alt="" />
+            </div>
+            <div class="choose-banner__img">
+              <img src="./assets/img/banner-image-3.jpg" alt="" />
+            </div>
+            <div class="choose-banner__img">
+              <img src="./assets/img/banner-image-4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="content__bark grid wide">
+          <div class="content-top">
+            <div class="main-img">
+              <div class="content-title content-title--position-center">
+                Recently Added Photographs
+              </div>
+              <div class="content-img">
+                <div class="content-img__row row">
+                  <!--------------------------------------------->
+                  <div class="content-img__col col l-6 m-4 c-12">
+                    <img src="./assets/img/blog-img-1.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-img__col col l-3 m-4 c-12">
+                    <img src="./assets/img/blog-img-2.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-img__col col l-3 m-4 c-12">
+                    <img src="./assets/img/blog-img-3.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--------------------------------------------->
+
+                  <!--------------------------------------------->
+                  <div class="content-img__col col l-3 m-4 c-12">
+                    <img src="./assets/img/blog-img-4.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-img__col col l-3 m-4 c-12">
+                    <img src="./assets/img/blog-img-5.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-img__col col l-6 m-4 c-12">
+                    <img src="./assets/img/blog-img-6.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--------------------------------------------->
+                  <!--------------------------------------------->
+                  <div class="content-img__col col l-6 m-4 c-12">
+                    <img src="./assets/img/blog-img-7.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-img__col col l-3 m-4 c-12">
+                    <img src="./assets/img/blog-img-8.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-img__col col l-3 m-4 c-12">
+                    <img src="./assets/img/blog-img-9.jpg" alt="" />
+                    <div class="img-desc">
+                      <div class="img-desc__count-show">45</div>
+                      <div class="img-desc__text">
+                        <div class="img-desc__text-long">
+                          Man standing on the middle of the road in the morning
+                        </div>
+                        <div class="img-desc__text-short">Landscapes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--------------------------------------------->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-bottom row">
+            <div class="content-blog-left col l-6">
+              <div class="content-title-bark">
+                <div class="content-title content-title--position-left">
+                  My Recent Blog Posts
+                </div>
+              </div>
+              <!-------------------------------------------->
+              <div class="content-recent">
+                <a
+                  href="./assets/page/single/single.html"
+                  class="content-recent__img"
+                >
+                  <div class="content-recent__img__count-show">45</div>
+                  <img src="./assets/img/banner-image-1.jpg" alt="" />
+                </a>
+                <div class="content-recent__desc">
+                  <div class="content-recent__text">
+                    <a href="./assets/page/single/single.html">
+                      Super and up for the comming model in shoot at new york
+                      USA morning..</a
+                    >
+                  </div>
+                  <div class="content-recent__btn">
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-address"
+                      >ladakh, india</a
+                    >
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-count"
+                    >
+                      <i class="fa fa-eye"></i>
+                      <span>345</span>
+                    </a>
+                  </div>
+                  <div class="content-recent__date">
+                    <span> Posted on :</span>
+                    <span class="content-recent__date-date"> 23.05.2016</span>
+                  </div>
+                </div>
+              </div>
+              <!-------------------------------------------->
+              <!-------------------------------------------->
+              <div class="content-recent">
+                <a
+                  href="./assets/page/single/single.html"
+                  class="content-recent__img"
+                >
+                  <div class="content-recent__img__count-show">45</div>
+                  <img src="./assets/img/banner-image-2.jpg" alt="" />
+                </a>
+                <div class="content-recent__desc">
+                  <div class="content-recent__text">
+                    <a href="./assets/page/single/single.html">
+                      Super and up for the comming model in shoot at new york
+                      USA morning..</a
+                    >
+                  </div>
+                  <div class="content-recent__btn">
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-address"
+                      >ladakh, india</a
+                    >
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-count"
+                    >
+                      <i class="fa fa-eye"></i>
+                      <span>345</span>
+                    </a>
+                  </div>
+                  <div class="content-recent__date">
+                    <span> Posted on :</span>
+                    <span class="content-recent__date-date"> 23.05.2016</span>
+                  </div>
+                </div>
+              </div>
+              <!-------------------------------------------->
+              <!-------------------------------------------->
+              <div class="content-recent">
+                <a
+                  href="./assets/page/single/single.html"
+                  class="content-recent__img"
+                >
+                  <div class="content-recent__img__count-show">45</div>
+                  <img src="./assets/img/banner-image-3.jpg" alt="" />
+                </a>
+                <div class="content-recent__desc">
+                  <div class="content-recent__text">
+                    <a href="./assets/page/single/single.html">
+                      Super and up for the comming model in shoot at new york
+                      USA morning..</a
+                    >
+                  </div>
+                  <div class="content-recent__btn">
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-address"
+                      >ladakh, india</a
+                    >
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-count"
+                    >
+                      <i class="fa fa-eye"></i>
+                      <span>345</span>
+                    </a>
+                  </div>
+                  <div class="content-recent__date">
+                    <span> Posted on :</span>
+                    <span class="content-recent__date-date"> 23.05.2016</span>
+                  </div>
+                </div>
+              </div>
+              <!-------------------------------------------->
+              <!-------------------------------------------->
+              <div class="content-recent">
+                <a
+                  href="./assets/page/single/single.html"
+                  class="content-recent__img"
+                >
+                  <div class="content-recent__img__count-show">45</div>
+                  <img src="./assets/img/banner-image-4.jpg" alt="" />
+                </a>
+                <div class="content-recent__desc">
+                  <div class="content-recent__text">
+                    <a href="./assets/page/single/single.html">
+                      Super and up for the comming model in shoot at new york
+                      USA morning..</a
+                    >
+                  </div>
+                  <div class="content-recent__btn">
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-address"
+                      >ladakh, india</a
+                    >
+                    <a
+                      href="./assets/page/single/single.html"
+                      class="content-recent__btn-count"
+                    >
+                      <i class="fa fa-eye"></i>
+                      <span>345</span>
+                    </a>
+                  </div>
+                  <div class="content-recent__date">
+                    <span> Posted on :</span>
+                    <span class="content-recent__date-date"> 23.05.2016</span>
+                  </div>
+                </div>
+              </div>
+              <!-------------------------------------------->
+            </div>
+            <div class="content-blog-right col l-6">
+              <div class="who-me-bark">
+                <div class="who-me">
+                  <div class="who-me__title">Whos Me ?</div>
+                  <div class="who-me__img">
+                    <img src="./assets/img/banner-image-3.jpg" alt="" />
+                  </div>
+                  <div class="who-me__description">
+                    Welcome to my personal travel blog, i love to travel the
+                    globe, i have been to so many beautiful places and met
+                    interesting people around the world, this website is my
+                    mirror of life...
+                  </div>
+                  <div class="who-me__society">
+                    <ul>
+                      <li>
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"> <i class="fab fa-twitter-square"></i> </a>
+                      </li>
+                      <li>
+                        <a href="#"> <i class="fab fa-youtube-square"></i> </a>
+                      </li>
+                      <li>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                      </li>
+                      <li>
+                        <a href="#"> <i class="fab fa-dribbble"></i> </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fab fa-pinterest-square"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="who-me__phone">
+                    <span> Phone:</span>
+                    <span> +44 1234567890</span>
+                  </div>
+                  <div class="who-me__email">
+                    <span>Email:</span>
+                    <span> info@clickaholic.com</span>
+                  </div>
+                  <div class="who-me__contact">
+                    <form class="contact">
+                      <div class="contact__title">Quick Contact</div>
+                      <div class="contact__name-email">
+                        <input
+                          text="name"
+                          placeholder="Name"
+                          class="contact__name"
+                        />
+                        <input
+                          text="email"
+                          placeholder="Email"
+                          class="contact__email"
+                        />
+                      </div>
+
+                      <div class="contact__message">
+                        <textarea
+                          rows="8"
+                          name="message"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <button type="button" class="contact__submit">
+                        Alright Submit It
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="grid wide">
+          <div class="footer__bark">
+            <div class="footer__title">My Flickr Feed</div>
+            <div class="footer__img row">
+              <a href="#" class="footer__img-item col l-2 m-4 c-12">
+                <div class="footer__img-item-bark">
+                  <img src="./assets/img/banner-image-1.jpg" alt="" />
+                </div>
+              </a>
+              <a href="#" class="footer__img-item col l-2 m-4 c-12">
+                <div class="footer__img-item-bark">
+                  <img src="./assets/img/banner-image-2.jpg" alt="" />
+                </div>
+              </a>
+              <a href="#" class="footer__img-item col l-2 m-4 c-12">
+                <div class="footer__img-item-bark">
+                  <img src="./assets/img/banner-image-3.jpg" alt="" />
+                </div>
+              </a>
+              <a href="#" class="footer__img-item col l-2 m-4 c-12">
+                <div class="footer__img-item-bark">
+                  <img src="./assets/img/banner-image-4.jpg" alt="" />
+                </div>
+              </a>
+              <a href="#" class="footer__img-item col l-2 m-4 c-12">
+                <div class="footer__img-item-bark">
+                  <img src="./assets/img/banner-image-1.jpg" alt="" />
+                </div>
+              </a>
+              <a href="#" class="footer__img-item col l-2 m-4 c-12">
+                <div class="footer__img-item-bark">
+                  <img src="./assets/img/banner-image-2.jpg" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__desc">
+          <div class="footer__nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><span>/</span></li>
+              <li><a href="#">About-us</a></li>
+              <li><span>/</span></li>
+              <li><a href="#">My-stories</a></li>
+              <li><span>/</span></li>
+              <li><a href="#">Destinations</a></li>
+              <li><span>/</span></li>
+              <li><a href="#">Gallery</a></li>
+              <li><span>/</span></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__copy-right">
+            <ul>
+              <li>
+                <span>(C) All Rights Reserved </span>
+                <a href="#">Someone No Name</a>
+              </li>
+              <li><span>/</span></li>
+              <li>
+                <span>Designed and Develope by</span>
+                <a href="#">Someone No Name</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="top-page">
+        <img src="./assets/img/arrow-top-up.png" alt="" />
+      </div>
+    </div>
+    <!-- <script src="./assets/js/script.js"></script> -->
+    <script src="./assets/js/script-back-top.js"></script>
+    <script src="./assets/js/script-nav.js"></script>
+
+    <script src="./assets/js/script-banner.js"></script>
+    <script src="./assets/js/script-recently.js"></script>
+  </body>
+</html>
